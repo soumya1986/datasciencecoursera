@@ -3,37 +3,37 @@
 #### There is only one file 'run_analysis.R' which contains all the code.
 #### The steps are provided below
 
-* read the training features 
+* read the training features into variable X_train
 
-* read the test features
+* read the test features into variable X_test
 
-* combine the train and test features 
+* combine the train and test features into variable all_x
 
-* read the training labels 
+* read the training labels into variable Y_train
 
-* read the test labels 
+* read the test labels into variable Y_test
 
-* combine the train and tes labels 
+* combine the train and tes labels into variable all_y
 
-* read the subjects in training 
+* read the subjects in training into variable Subject_train
 
-* read the subjects in testing
+* read the subjects in testing into variable Subject_test
 
-* combine the subjects 
+* combine the subjects into variable all_subject
 
-* combine the features, labels and subjects 
+* combine the features, labels and subjects into variable all
 
 * read the names of features into the variable 'titles'
 
-* add the column names 'class' and 'subject' 
+* add the column names 'class' and 'subject' to the variable 'titles'
 
-* name the columns  
+* name the columns  of variable all_x
 
-* extract the column indices containing measurements on mean  
+* extract the column indices containing measurements on mean  into variable mean_cols
 
-* extracts the column indices containing mesurements on standard deviation 
+* extracts the column indices containing mesurements on standard deviation into variable std_cols
 
-* combine the indices 
+* combine the indices into variable meanNstd_cols
 
 * get the features corresponding to those column indices 
 

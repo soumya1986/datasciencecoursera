@@ -1,12 +1,15 @@
+## CodeBook for run_analysis.R
 
+#### There is only one file 'run_analysis.R' which contains all the code.
+#### The steps are provided below
 
-* read the training features 
+* read the training features into X_train
 
-* read the test features
+* read the test features into X_test
 
-* combine the train and test features 
+* combine the train and test features into all_x
 
-* read the training labels 
+* read the training labels into Y_train
 
 * read the test labels 
 
